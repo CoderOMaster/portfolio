@@ -382,7 +382,8 @@ With a commitment to advancing the field of artificial intelligence, I continual
       </div>
     
       <!-- Contact Form -->
-      <form id="contact-form" action="submit_form.php" method="POST">
+      <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="54f5b7dc-3331-4340-896e-85f2f0a66913">
         <div class="form-group">
           <label for="name">Your Name:</label>
           <input type="text" id="name" name="name" required>
@@ -397,6 +398,20 @@ With a commitment to advancing the field of artificial intelligence, I continual
         </div>
         <button type="submit" class="btn btn-color-2">Send Message</button>
       </form>
+<!--       <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="54f5b7dc-3331-4340-896e-85f2f0a66913">
+
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+
+    <button type="submit">Submit Form</button>
+
+</form> -->
     </section>
     
     
